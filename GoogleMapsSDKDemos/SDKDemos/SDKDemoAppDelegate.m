@@ -24,6 +24,8 @@
     @throw [NSException exceptionWithName:@"SDKDemoAppDelegate"
                                    reason:[NSString stringWithFormat:format, bundleId]
                                  userInfo:nil];
+      
+      //google maps
   }
   [GMSServices provideAPIKey:kAPIKey];
   services_ = [GMSServices sharedServices];
